@@ -1,7 +1,8 @@
 [xsce-testing]
 name=xsce-testing
 failovermethod=priority
-baseurl=http://download.unleashkids.org/xsce/repos/xsce/testing
+#baseurl=http://download.unleashkids.org/xsce/repos/xsce/testing
+baseurl=baseurl=http://download.iiab.io/repos/xs-extra/
 enabled=1
 metadata_expire=1d
 gpgcheck=0

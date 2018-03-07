@@ -62,18 +62,18 @@ subnet 172.18.96.0 netmask 255.255.224.0 {
 		range 172.18.125.1 172.18.125.254;
 		deny members of "xo";
 	}
-	# FZT
-	host tecra {
-		hardware ethernet 00:27:10:94:8e:44;
+	# WLAN XIAOMI
+	host wlan {
+		hardware ethernet a0:c5:89:52:68:fe;
 		fixed-address 172.18.124.10;
 	}
-	# FZT
-	host cedslx {
-		hardware ethernet 2c:33:7a:25:9f:45;
+	# LAN XIAOMI
+	host lan {
+		hardware ethernet 9c:eb:e8:2c:de:38;
 		fixed-address 172.18.124.20;
 	}
-	# FZT
-	host samsungx {
+	# Xiaomi - Luis
+	host cel {
 		hardware ethernet f4:09:d8:75:40:86;
 		fixed-address 172.18.124.30;
 	}

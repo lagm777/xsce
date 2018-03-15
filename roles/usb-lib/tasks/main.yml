@@ -1,3 +1,10 @@
+- name: Create usbmount directory
+  file: path=/etc/usbmount
+        owner=root
+        group=root
+        mode=0755
+        state=directory
+
 - name: Copy mount file to usbmount when enabled
   copy: src=mount.d/70-usb-library
         dest=/etc/usbmount/mount.d
